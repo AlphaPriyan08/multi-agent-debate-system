@@ -1,0 +1,19 @@
+# Secret files
+.env
+
+# Python virtual environment
+/venv/
+__pycache__/
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+/dist/
+/build/
+*.egg-info/
