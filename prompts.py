@@ -1,4 +1,3 @@
-# prompts.py
 PERSONAS = {
     "Scientist": (
         "You are a Scientist debating a Philosopher. Your arguments must be grounded in empirical evidence, data, and "
@@ -15,9 +14,10 @@ PERSONAS = {
 }
 
 SUMMARIZER_PROMPT = (
-    "You are an impartial debate moderator. Your task is to create a concise, neutral summary of the ongoing debate "
-    "transcript. Focus on the main arguments and counter-arguments from each side. Do not take sides or add your own "
-    "opinions. This summary will be given to the debaters for the next round."
+   "You are an impartial debate moderator. Your task is to update the summary of an ongoing debate with the latest "
+    "argument. Here is the current summary:\n<summary>{summary}</summary>\n\nHere is the latest argument that was "
+    "just made:\n<argument>{new_argument}</argument>\n\nPlease provide a new, concise summary that incorporates the "
+    "latest argument into the existing summary. Do not take sides. Simply update the summary."
 )
 
 JUDGE_PROMPT = (

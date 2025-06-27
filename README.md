@@ -1,6 +1,6 @@
 # Multi-Agent Debate System using LangGraph
 
-**ATG Technical Assignment - Round 2**
+## Overview
 
 This project implements a sophisticated multi-agent debate system where two AI personas, a **Scientist** and a **Philosopher**, engage in a structured, multi-round debate on a user-provided topic. The system is built with a modular architecture using LangGraph to manage the complex, looping control flow.
 

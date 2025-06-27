@@ -1,4 +1,3 @@
-# main.py (Modular Version)
 import logging
 from dotenv import load_dotenv
 from rich.console import Console
