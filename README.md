@@ -162,3 +162,5 @@ Please enter the topic for the debate: What is important for life? Money or Frie
 ```
 
 ## Demo Video
+
+[View the Demo on Google Drive](https://drive.google.com/file/d/1Ic0JZZuLpn-LXTrGkC5_qP8MXSHDSJUg/view?usp=sharing)
